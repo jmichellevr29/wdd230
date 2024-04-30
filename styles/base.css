@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer,
+nav {
+    background-color: #D1CCC7;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
+}
+
+main {
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* header */
+header {
+    background-color: rgb(93, 115, 69, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+header img {
+    padding: 20px;
+}
+
+/* nav css */
+nav {
+    padding: 10px;
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(93, 115, 69, 0.3);
+    border-radius: 10px;
+}
+
+nav #active {
+    background-color: rgb(93, 115, 69, 0.5);
+    color: black;
+    border-radius: 10px;
+}
+
+/* main */
+#grid {
+    margin: 1rem 2vw;
+    font-size: 15px;
+}
+
+#grid section {
+    border: 1px solid #5D7345;
+    background-color: #D1CCC7;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+#grid h2 {
+    background-color: rgb(93, 115, 69, 0.8);
+    color: black;
+    display: block;
+    text-align: center;
+    padding: .75rem 0;
+}
+
+#grid span {
+    display: block;
+    padding: .75rem 0;
+}
+
+#grid p {
+    padding: 10px;
+}
+
+#grid li {
+    display: block;
+    padding: 1rem;
+}
+
+/* footer */
+footer {
+    display: block;
+    text-align: center;
+    padding: 1.75rem;
+}
