@@ -25,6 +25,15 @@ h2 {
     font-size: 20px;
 }
 
+/* dark mode */
+main.dark {
+    background-color: black;
+}
+
+main.dark h2 {
+    color: white;
+}
+
 /* header */
 header {
     background-color: rgb(93, 115, 69, 0.5);
@@ -36,6 +45,48 @@ header {
 
 header img {
     padding: 20px;
+}
+
+#darkBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    background-color: rgb(93, 115, 69, 0.01);
+    cursor: pointer;
+}
+
+/* ham button */
+.navigation {
+    display: none;
+}
+
+#menu::before {
+    content: "=";
+}
+
+#menu {
+    font-size: 2rem;
+    background-color: #D1CCC7;
+    border: none;
+    color: #5D7345;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: .25rem 2vw;
+}
+
+ul.navigation li a {
+    padding: .75rem 2vw;
+    text-decoration: none;
+}
+
+#menu.open::before {
+    content: "x";
+}
+
+.navigation.open {
+    display: block;
 }
 
 /* nav css */
@@ -95,7 +146,16 @@ nav #active {
 
 #grid li {
     display: block;
-    padding: 1rem;
+    padding: 0.5rem;
+}
+
+#grid a {
+    color: black;
+    text-decoration: none;
+}
+
+#grid a:hover {
+    text-decoration: underline;
 }
 
 /* footer */

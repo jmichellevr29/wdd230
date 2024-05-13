@@ -6,6 +6,14 @@
 
     }
 
+    .navigation {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
     #grid {
         display: grid;
         grid-template-columns: 2fr 1fr;

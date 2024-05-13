@@ -27,9 +27,11 @@
 <body>
     <header>
         <img src="images/profile.jpg" alt="Profile photo">
+        <img src="images/dark-theme-.svg" alt="dark mode" id="darkBtn">
         <span id="name"> Jennifer Michelle Villacis R.</span>
     </header>
-    <nav>
+    <button id="menu"></button>
+    <nav class="navigation">
         <ul>
             <li><a id="active" href="index.html">Home</a></li>
             <li><a href="">Chamber</a></li>
@@ -38,7 +40,7 @@
         </ul>
     </nav>
 
-    <main>
+    <main id="mode">
         <h1>WDD 230: Web Frontend Development</h1>
 
         <div id="grid">
@@ -67,6 +69,9 @@
     </footer>
 
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamButton.js"></script>
+    <script src="scripts/darkMode.js"></script>
+
 
 </body>
 
