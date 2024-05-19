@@ -1,0 +1,44 @@
+@media only screen and (min-width: 640px) {
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        padding: 25px;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav a {
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 25px;
+    }
+
+    nav a:hover {
+        background-color: #D7D9D7;
+        color: #102542;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+    }
+
+    #grid section {
+        box-shadow: 1px 1px 1px black;
+    }
+}
