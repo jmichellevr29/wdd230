@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Demonstation</title>
+    <meta name="author" content="Jennifer M. Villacis">
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lazy Load Demonstration</h1>
+    </header>
+
+    <main>
+        <picture>
+            <img src="https://loremflickr.com/400/600/paris" alt="Placeholder Paris" loading="lazy" width="400"
+                height="600">
+        </picture>
+        <picture>
+            <img src="https://loremflickr.com/400/675/london" alt="Placeholder London" loading="lazy" width="400"
+                height="600">
+        </picture>
+        <picture>
+            <img src="https://loremflickr.com/400/800/venice" alt="Placeholder Venice" loading="lazy" width="400"
+                height="600">
+        </picture>
+        <picture>
+            <img src="https://loremflickr.com/400/650/barcelona" alt="Placeholder Barcelona" loading="lazy" width="400"
+                height="600">
+        </picture>
+        <picture>
+            <img src="https://loremflickr.com/400/700/edinburgh" alt="Placeholder Edinburgh" loading="lazy" width="400"
+                height="600">
+        </picture>
+        <picture>
+            <img src="https://loremflickr.com/400/750/monaco" alt="Placeholder Monaco" loading="lazy" width="400"
+                height="600">
+        </picture>
+    </main>
+
+    <footer>
+        <p>
+        <p>&copy;<span id="year"></span> | Michelle Villacis | BYUI-230</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+
+</body>
+
+</html>
