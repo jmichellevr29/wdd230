@@ -41,4 +41,42 @@
     #grid section {
         box-shadow: 1px 1px 1px black;
     }
+
+    /* discover page view */
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    .sidebar {
+        background-color: #f4f4f4;
+        grid-column: 1;
+        padding: 20px;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .photos {
+        display: grid;
+        gap: 20px;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    figure img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* img hover */
+    img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
 }
