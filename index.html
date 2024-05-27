@@ -8,10 +8,10 @@
     <meta name="author" content="Michelle Villacis">
     <meta name="description"
         content="WDD 230 - Web Frontend Development. Jennifer Michelle Villacis Rodriguez. Course assignment portal">
-    <meta property="og:title" content="WDD 230 - Michelle Villacis">
-    <meta property="og:type" content="Work for the WDD 230 course">
-    <meta property="og:image" content="https://ame.gob.ec/wp-content/uploads/2017/01/PORTOVIEJO.jpg">
-    <meta property="og:url" content="https://jmichellevr29.github.io/wdd230/">
+    <meta property="title" content="WDD 230 - Michelle Villacis">
+    <meta property="type" content="Work for the WDD 230 course">
+    <meta property="image" content="https://ame.gob.ec/wp-content/uploads/2017/01/PORTOVIEJO.jpg">
+    <meta property="url" content="https://jmichellevr29.github.io/wdd230/">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -26,11 +26,12 @@
 
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Profile photo">
+        <img src="images/profile.webp" alt="Profile photo">
         <img src="images/dark-theme-.svg" alt="dark mode" id="darkBtn">
         <span id="name"> Jennifer Michelle Villacis R.</span>
     </header>
     <button id="menu"></button>
+
     <nav class="navigation">
         <ul>
             <li><a id="active" href="index.html">Home</a></li>
@@ -39,6 +40,19 @@
             <li><a href="">Form</a></li>
         </ul>
     </nav>
+
+    <div class="hero">
+        <picture>
+            <source media="(max-width: 400px)" srcset="images/denver-temple-small.webp">
+            <source media="(max-width: 1000px)" srcset="images/denver-temple-large.webp">
+            <img src="images/denver-temple-large.webp" alt="Denver Temple">
+        </picture>
+
+        <div class="herolabel">
+            <p>Denver Temple</p>
+        </div>
+
+    </div>
 
     <main id="mode">
         <h1>WDD 230: Web Frontend Development</h1>
@@ -58,11 +72,18 @@
             <section class="card">
                 <h2>Information</h2>
                 <p>Weather: <span class="weather-placeholder">[Weather Placeholder]</span></p>
-                <p>Number of visits: <span class="visit-placeholder">[Visit Placeholder]</span></p>
+                <p>Number of visits: <span id="visit-count"></span></p>
             </section>
         </div>
 
     </main>
+
+    <div id="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27445.30051919643!2d-80.45476006200143!3d-1.05225800547831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1716775194107!5m2!1ses!2sec"
+            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+    </div>
 
     <footer>
         <p>&copy;<span id="year"></span> | Michelle Villacis | Ecuador</p>
@@ -72,6 +93,8 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamButton.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitCount.js"></script>
+
 
 
 </body>

@@ -14,6 +14,8 @@ nav {
 
 main {
     font-family: "Lato", sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -32,6 +34,37 @@ main.dark {
 
 main.dark h2 {
     color: white;
+}
+
+/* hero image */
+.hero {
+    position: relative;
+    border: 1px solid (93, 115, 69, 0.5);
+    height: 300px;
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: #D1CCC7;
+    border: 1px solid #5D7345;
+    padding: 1.5rem;
+    opacity: 0.75;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: "Cormorant Garamond", serif;
 }
 
 /* header */
@@ -156,6 +189,19 @@ nav #active {
 
 #grid a:hover {
     text-decoration: underline;
+}
+
+/* map */
+#map {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map {
+    max-width: 400px;
+    max-height: 300px;
 }
 
 /* footer */
