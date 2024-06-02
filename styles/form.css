@@ -1,0 +1,84 @@
+h1 {
+    font-family: "Cormorant Garamond", serif;
+}
+
+.wform {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1em;
+    border: 2px solid #5D7345;
+    border-radius: 1em;
+}
+
+.wform fieldset {
+    margin: 2rem 0;
+    border: none;
+}
+
+.wform legend {
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: #5D7345;
+    color: white;
+    padding: 10px 80px;
+    border-radius: 1rem;
+}
+
+.wform label {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.wform input[type="text"],
+.wform input[type="password"],
+.wform input[type="email"],
+.wform datalist {
+    display: block;
+    background-color: #eee;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: grey;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+
+.wform input[type="submit"] {
+    display: block;
+    width: 96%;
+    max-width: 400px;
+    padding: 0.7em;
+    border: none;
+    border-radius: 0.3em;
+    background: #5D7345;
+    color: white;
+    font-size: 1em;
+    margin: -1rem 2% 2rem 2%;
+}
+
+#rating {
+    width: 180px;
+}
+
+#rangevalue {
+    font-size: .9rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+#rangevalues {
+    display: flex;
+    margin: 0 0 0 25px;
+    width: 200px;
+    font-size: .7rem;
+}
+
+#rangevalues option {
+    flex: 1 1 auto;
+}
+
+/*------------2 PAGE--------------*/
