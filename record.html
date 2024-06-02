@@ -23,8 +23,6 @@
     <link rel="stylesheet" href="styles/form.css">
 </head>
 
-
-
 <body>
     <header>
         <img src="images/profile.webp" alt="Profile photo">
@@ -43,51 +41,16 @@
     </nav>
 
     <main>
-        <h1>Form Application</h1>
-        <form method="get" action="record.html" class="wform">
-            <fieldset>
-                <legend>Log-In</legend>
-                <label>Username*: <input type="text" id="username" name="username" required></label>
-                <label>Password*: <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}"
-                        required></label>
-                <label>Confirmation Password: <input type="password" id="confirmPassword" name="confirmPassword"
-                        required></label>
-                <label>Email*: <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
-                        required title="Please enter a valid email address"></label>
-                <div id="rangevalue">
-                    <label>Rating <input type="range" id="rating" name="rating" min="1" max="10" value="0" step="1"
-                            list="rangevalues"></label>
-                    <datalist id="rangevalues">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                    </datalist>
-                </div>
-            </fieldset>
-            <input type="submit" value="Log-In">
-        </form>
-
+        <h1 id="title-form">Thank you for joining our page!</h1>
+        <p id="msg">This is a confirmation page of your log-in info</p>
 
     </main>
-
     <footer>
         <p>&copy;<span id="year"></span> | Michelle Villacis | Ecuador</p>
         <p>Last modified: <span id="lastModified"></span></p>
     </footer>
-
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamButton.js"></script>
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/form.js"></script>
-
 </body>
-
-</html>
