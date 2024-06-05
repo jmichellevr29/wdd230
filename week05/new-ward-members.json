@@ -1,0 +1,28 @@
+{
+    "familyName": "Rodriguez",
+    "moveInDate": "2023-05-14",
+    "numberOfPeople": 4,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "Ricardo Rodriguez",
+            "gender": "Male",
+            "birthdate": "1980-04-12"
+        },
+        {
+            "name": "Jackeline Rodriguez",
+            "gender": "Female",
+            "birthdate": "1982-08-25"
+        },
+        {
+            "name": "Peyton Rodriguez",
+            "gender": "Female",
+            "birthdate": "2010-09-15"
+        },
+        {
+            "name": "Jimmy Rodriguez",
+            "gender": "Male",
+            "birthdate": "2012-12-05"
+        }
+    ]
+}
