@@ -7,10 +7,10 @@
     <title>Crucita Pier Chamber Site</title>
     <meta name="author" content="Michelle Villacis">
     <meta name="description" content="WDD 230 - Web Frontend Development. The Chamber Site">
-    <meta property="og:title" content="WDD 230 - Michelle Villacis">
-    <meta property="og:type" content="Work for the WDD 230 course">
-    <meta property="og:image" content="https://www.nanmagazine.com/wp-content/uploads/2022/07/Crucita-04.jpg">
-    <meta property="og:url" content="https://jmichellevr29.github.io/wdd230/">
+    <meta property="title" content="WDD 230 - Michelle Villacis">
+    <meta property="type" content="Work for the WDD 230 course">
+    <meta property="image" content="https://www.nanmagazine.com/wp-content/uploads/2022/07/Crucita-04.jpg">
+    <meta property="url" content="https://jmichellevr29.github.io/wdd230/">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
@@ -37,17 +37,18 @@
             <form method="get" action="thankyou.html" class="form1">
                 <fieldset>
                     <legend>Applicant Information</legend>
-                    <label>First Name* <input type="text" name="fname" required></label>
-                    <label>Last Name* <input type="text" name="lname" required></label>
+                    <label>First Name* <input type="text" name="fname" required id="fname"></label>
+                    <label>Last Name* <input type="text" name="lname" required id="last-name"></label>
                     <label>Title/Position* <input type="text" name="title" pattern="[a-zA-Z\s\-]{7,}"
                             title="Only alpha characters, hyphens, and spaces are allowed, and minimum of 7 characters"
-                            required></label>
-                    <label>Phone* <input type="tel" name="phone" placeholder="1234432" required></label>
-                    <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                            required id="position"></label>
+                    <label>Phone* <input type="tel" name="phone" placeholder="1234432" required id="phone"></label>
+                    <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required
+                            id="email"></label>
                 </fieldset>
                 <fieldset>
                     <legend>Business Information</legend>
-                    <label>Business/Organization's name* <input type="text" name="bname" required></label>
+                    <label>Business/Organization's name* <input type="text" name="bname" required id="business"></label>
                     <label for="description">Business/Organization's Description:
                         <textarea id="description" name="description"></textarea>
                     </label>
@@ -55,11 +56,15 @@
                 <fieldset>
                     <legend>Type of Membership</legend>
                     <div>Membership</div>
-                    <label><input type="radio" name="membership" value="NP Membership (non-profit organization)">NP
+                    <label><input type="radio" name="membership" value="NP Membership (non-profit organization)"
+                            id="membership">NP
                         Membership (non-profit organization)</label>
-                    <label><input type="radio" name="membership" value="Bronze Membership">Bronze Membership</label>
-                    <label><input type="radio" name="membership" value="Silver Membership">Silver Membership</label>
-                    <label><input type="radio" name="membership" value="Gold Membership">Gold Membership</label>
+                    <label><input type="radio" name="membership" value="Bronze Membership" id="membership">Bronze
+                        Membership</label>
+                    <label><input type="radio" name="membership" value="Silver Membership" id="membership">Silver
+                        Membership</label>
+                    <label><input type="radio" name="membership" value="Gold Membership" id="membership">Gold
+                        Membership</label>
 
                 </fieldset>
                 <input type="hidden" id="timestamp" name="timestamp" value="<?php echo date('Y-m-d H:i:s'); ?>">
