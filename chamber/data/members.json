@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Dorilocos",
+        "address": "Crucita main street",
+        "phone": "099231234",
+        "website": "http://www.companyone.com",
+        "image": "dorilocoS.webp",
+        "membership_level": "Gold",
+        "additional_info": "Specializes in food"
+    },
+    {
+        "name": "Trittoria di Marco",
+        "address": "Crucita Pier, street N1",
+        "phone": "098453265",
+        "website": "http://www.companytwo.com",
+        "image": "trattoria.webp",
+        "membership_level": "Silver",
+        "additional_info": "Italian food restaurant"
+    },
+    {
+        "name": "Fish Crucita",
+        "address": "Street 3, pier ",
+        "phone": "555-123-4567",
+        "website": "http://www.companythree.com",
+        "image": "fish-market.webp",
+        "membership_level": "Bronze",
+        "additional_info": "Fish Market"
+    },
+    {
+        "name": "Micheladas",
+        "address": "Bodega Street",
+        "phone": "09543456423",
+        "website": "http://www.companyfour.com",
+        "image": "michelada.webp",
+        "membership_level": "Gold",
+        "additional_info": "Beer Market"
+    },
+    {
+        "name": "Cyber Crucita",
+        "address": "Main street",
+        "phone": "09232348323",
+        "website": "http://www.companyfive.com",
+        "image": "cyber.webp",
+        "membership_level": "Silver",
+        "additional_info": "Internet Provider."
+    },
+    {
+        "name": "Celulares Paez",
+        "address": "Rodriguez street",
+        "phone": "09213983232",
+        "website": "http://www.companysix.com",
+        "image": "paez.webp",
+        "membership_level": "Bronze",
+        "additional_info": "Cellphone provider"
+    },
+    {
+        "name": "Crucita Market",
+        "address": "123 Pier street",
+        "phone": "090921392",
+        "website": "http://www.companyseven.com",
+        "image": "crucita-market.webp",
+        "membership_level": "Gold",
+        "additional_info": "Handmade jewerly"
+    }
+]
