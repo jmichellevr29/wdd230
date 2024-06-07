@@ -1,0 +1,85 @@
+{
+  "weeks": [
+    {
+      "week": "Week 1",
+      "links": [
+        {
+          "url": "",
+          "title": "Holy Grail Page"
+        },
+        {
+          "url": "path/to/learning/activity2.html",
+          "title": "Site Plan"
+        }
+      ]
+    },
+    {
+      "week": "Week 2",
+      "links": [
+        {
+          "url": "https://jmichellevr29.github.io/wdd230/week02/design.html",
+          "title": "Learning Activity 1"
+        },
+        {
+          "url": "https://codepen.io/michellevr29/pen/YzbPqwa",
+          "title": "Code Pen"
+        },
+        {
+          "url": "https://jmichellevr29.github.io/wdd230/week02/bom.html",
+          "title": "BOM"
+        }
+      ]
+    },
+    {
+      "week": "Week 3",
+      "links": [
+        {
+          "url": "https://jmichellevr29.github.io/wdd230/week03/images/lanscape.webp",
+          "title": "WebP"
+        },
+        {
+          "url": "phttps://jmichellevr29.github.io/wdd230/week03/lazyload.html",
+          "title": "Lazy Load Page"
+        },
+        {
+          "url": "https://jmichellevr29.github.io/wdd230/week03/responsive-images.html",
+          "title": "Reponsive Images"
+        }
+      ]
+    },
+    {
+      "week": "Week 4",
+      "links": [
+        {
+          "url": "https://codepen.io/michellevr29/pen/LYoRwXd",
+          "title": "Code Pen"
+        },
+        {
+          "url": "https://jmichellevr29.github.io/wdd230/week04/images/combinators-w04.png",
+          "title": "Combinators Activity"
+        },
+        {
+          "url": "https://jmichellevr29.github.io/wdd230/week04/tablebuild.html",
+          "title": "Table Page "
+        }
+      ]
+    },
+    {
+      "week": "Week 5",
+      "links": [
+        {
+          "url": "https://codepen.io/michellevr29/pen/YzbZgPB",
+          "title": "Code Pen W05"
+        },
+        {
+          "url": "https://jmichellevr29.github.io/wdd230/week05/new-ward-members.json",
+          "title": "JSON File"
+        },
+        {
+          "url": "https://jmichellevr29.github.io/wdd230/week05/weather.html",
+          "title": "Weather Page"
+        }
+      ]
+    }
+  ]
+}
